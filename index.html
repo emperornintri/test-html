@@ -2,25 +2,46 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Test YourTextGuru</title>
-    <style>body { font-family: Arial; }</style>
-    <script>console.log("Hello");</script>
+    <title>Test YourTextGuru - Version Longue</title>
+    <style>
+        body { font-family: Arial, line-height: 1.6; margin: 20px; }
+        header, nav, footer { background-color: #f0f0f0; padding: 10px; margin-bottom: 20px; }
+        article { max-width: 800px; margin: auto; }
+    </style>
 </head>
 <body>
 
-<header>Menu principal</header>
-<nav>Liens navigation</nav>
+<header>
+    <h1>Menu principal</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
 
 <main>
     <article>
         <h1>Titre principal de l'article</h1>
-        <p>Ceci est le paragraphe principal que YourTextGuru devrait extraire.</p>
-        <aside>Encart secondaire / pub</aside>
-        <p>Un autre paragraphe important.</p>
+        
+        <p>Ceci est le paragraphe principal que YourTextGuru devrait extraire. Il contient plusieurs phrases afin d'avoir un contenu plus conséquent à analyser. Le but est de vérifier si l'outil détecte bien tout le texte principal.</p>
+        
+        <p>Voici un second paragraphe avec du contenu supplémentaire. Il détaille des informations importantes, notamment sur le fonctionnement de l'outil, la structure des articles, et l'intérêt d'utiliser des balises sémantiques comme &lt;article&gt; et &lt;main&gt;.</p>
+        
+        <p>Un troisième paragraphe est ajouté pour tester l'extraction. Il inclut des phrases longues et diverses informations fictives afin de rendre le contenu plus réaliste. Par exemple, nous pouvons parler de l'histoire d'Internet, des tendances technologiques actuelles, ou même de conseils pour l'écriture en ligne.</p>
+        
+        <p>Enfin, un quatrième paragraphe conclut l'article, en résumant les points précédents et en invitant le lecteur à explorer d'autres sections du site pour plus d'informations. Ce texte est volontairement long pour maximiser la probabilité que YourTextGuru détecte correctement l'article.</p>
+        
+        <aside>Encart secondaire / publicité / informations annexes</aside>
     </article>
 </main>
 
-<footer>Pied de page</footer>
+<footer>
+    <p>Pied de page - © 2025 Exemple de site</p>
+</footer>
 
 </body>
 </html>
